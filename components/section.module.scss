@@ -1,0 +1,8 @@
+@use '../styles/abstracts/vars';
+
+.section {
+    padding: 1rem;
+    padding-top: 0;
+    background-color: vars.$color_green;
+    //border: 2px solid orange;
+}

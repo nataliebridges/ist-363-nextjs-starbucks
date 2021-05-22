@@ -1,0 +1,15 @@
+@use '../styles/abstracts/vars';
+
+.header{
+    background-color: vars.$color_green_10;
+    padding: 1rem;
+    color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //border: 4px solid orange
+}
+.menu_btn{
+    background-color: inherit;
+    border: none;
+}

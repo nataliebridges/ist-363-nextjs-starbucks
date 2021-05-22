@@ -1,0 +1,31 @@
+@use '../styles/abstracts/vars';
+
+.btn{
+    //background-color: pink;
+    padding: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .5s;
+    &.primary{
+        background-color: vars.$color_green;
+        color: vars.$color_white;
+        &:hover, &:focus{
+            background-color: vars.$color_black;
+        }
+    }
+    &.secondary{
+        background-color: vars.$color_white;
+        color: vars.$color_green;
+        border: 1px solid vars.$color_green;
+        &:hover, &:focus{
+            background-color: vars.$color_green;
+            color:  vars.$color_white;
+        }
+    }
+}
+
+.menuBtn{
+    background-color: inherit;
+    border: none;
+}

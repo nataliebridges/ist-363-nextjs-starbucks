@@ -1,0 +1,13 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+    //background-color: lightblue;
+    &.justify-content-center {
+        justify-content: center;
+    }
+    &.justify-content-space-between {
+        justify-content: space-between;
+    }
+}

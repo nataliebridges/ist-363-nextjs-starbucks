@@ -1,0 +1,29 @@
+@use '../styles/abstracts/vars';
+
+.heading1 {
+    font-weight: bold;
+    font-size: 2.25rem;
+    color: vars.$color_white;
+    //background-color: pink;
+}
+
+.heading2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: vars.$color_white;
+    //background-color: blue;
+}
+
+.heading3 {
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: vars.$color_white;
+    //background-color: orange;
+}
+
+.heading4 {
+    font-style: italic;
+    font-size: 1.125rem;
+    color: vars.$color_white;
+}
